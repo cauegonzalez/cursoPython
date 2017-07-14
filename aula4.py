@@ -1,0 +1,6 @@
+print('====Exercício aula 04====')
+nome  = input('Digite seu nome: ')
+idade = input('Digite sua idade: ')
+peso  = input('Digite seu peso: ')
+print('---------------------------')
+print('Nome:', nome,'\nIdade:', idade,'\nPeso:', peso)
