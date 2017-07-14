@@ -1,4 +1,4 @@
-print('====Exercício aula 04====')
+print('====Exercício Aula 04====')
 nome  = input('Digite seu nome: ')
 idade = input('Digite sua idade: ')
 peso  = input('Digite seu peso: ')

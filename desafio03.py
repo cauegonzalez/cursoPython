@@ -1,6 +1,6 @@
 print('====Desafio 03 - Aula 04====')
-a = input('Primeiro número: ')
-b = input('Segundo número: ')
-c = float(a) + float(b)
+a = int(input('Primeiro número: '))
+b = int(input('Segundo número: '))
+c = a + b
 print('------------------')
-print('A soma é',c)
+print('A soma é {}'.format(c))
