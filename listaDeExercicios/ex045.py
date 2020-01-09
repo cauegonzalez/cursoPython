@@ -20,14 +20,14 @@ if escolhaJogador == 1:
     elif escolhaComputador == 1:
         msg = '\033[33mEMPATE\033[m'
     else:
-        msg = '\033[31mVocê perdeu pois PAPEL embrula PEDRA\033[m'
+        msg = '\033[31mVocê perdeu pois PAPEL embrulha PEDRA\033[m'
 elif escolhaJogador == 2: 
     if escolhaComputador == 3:
         msg = '\033[31mVocê perdeu pois TESOURA corta PAPEL\033[m'
     elif escolhaComputador == 2:
         msg = '\033[33mEMPATE\033[m'
     else:
-        msg = '\033[32mVocê ganhou pois PAPEL embrula PEDRA\033[m'
+        msg = '\033[32mVocê ganhou pois PAPEL embrulha PEDRA\033[m'
 elif escolhaJogador == 3: 
     if escolhaComputador == 1:
         msg = '\033[31mVocê perdeu pois PEDRA amassa a TESOURA\033[m'
