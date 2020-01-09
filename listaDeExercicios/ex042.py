@@ -20,7 +20,7 @@ if possivel and (reta2 > reta3 + reta1):
 
 print('')
 if possivel:
-    if reta1 == reta2 and reta2 == reta3:
+    if reta1 == reta2 == reta3:
         tipoTriangulo = 'EQUILÁTERO'
     elif reta1 == reta2 or reta2 == reta3 or reta1 == reta3:
         tipoTriangulo = 'ISÓSCELES'
