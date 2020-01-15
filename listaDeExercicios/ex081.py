@@ -13,7 +13,6 @@ while True:
         continuar = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
     if continuar == 'N':
         break
-valores.sort()
 print(f'Você digitou a lista: {valores}')
 print(f'A lista digitada tem : {len(valores)}')
 valores.sort(reverse=True)
